@@ -12,4 +12,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Add our custom button onClick event
+  toggleAddTask() {
+    console.log('toggled!!');
+  }
+
 }
