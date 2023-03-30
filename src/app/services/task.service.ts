@@ -8,4 +8,8 @@ import {TASKS} from '../mock-tasks';
 export class TaskService {
 
   constructor() { }
+
+  getTasks(): Task[] {
+    return TASKS;
+  }
 }
